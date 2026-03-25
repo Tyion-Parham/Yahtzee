@@ -101,6 +101,7 @@ void GameLogic::useGameLogic()
 			cout << endl;
 			ui.outputScore();
 			cout << getScore() << endl << endl;
+			roundReroll = 0;
 
 		} while (rounds < 6);
 		ui.printResults();
